@@ -253,6 +253,16 @@ figcaption {
     margin: 0.25rem 1.5rem 1rem 0;
 }
 
+/* Sits below its text instead of floating beside it, at every width */
+.photo-figure.is-stacked {
+    float: none;
+    margin: 0.75rem 0 0;
+}
+
+.photo-figure.is-stacked img {
+    margin-inline: 0;
+}
+
 .construction-page {
     padding: 2rem 0;
 }
